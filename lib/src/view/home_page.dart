@@ -81,8 +81,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     Size media = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Container(
-
         child: Center(
             child: Stack(children: [
               AnimatedBuilder(
